@@ -16,7 +16,7 @@ function Form({ callback }) {
         event.preventDefault();
 
         try {
-            const response = await fetch('http://https://https://horoscopo-back-mu.vercel.app///v1/auth/login', { 
+            const response = await fetch('https://horoscopo-back-mu.vercel.app/v1/auth/login', { 
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -54,7 +54,7 @@ function Form({ callback }) {
         event.preventDefault();
 
         try {
-            const response = await fetch('http://https://https://horoscopo-back-mu.vercel.app///v1/auth/change-password', {
+            const response = await fetch('https://horoscopo-back-mu.vercel.app/v1/auth/change-password', {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json'
@@ -81,7 +81,7 @@ function Form({ callback }) {
         event.preventDefault();
 
         try {
-            const response = await fetch('http://https://https://horoscopo-back-mu.vercel.app///v1/auth/register', {
+            const response = await fetch('https://horoscopo-back-mu.vercel.app/v1/auth/register', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
