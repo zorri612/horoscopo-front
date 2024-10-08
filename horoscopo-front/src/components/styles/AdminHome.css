@@ -1,0 +1,51 @@
+.container{
+    height: 300px;
+    display: grid;
+    place-items: center;
+}
+
+#editSignos{
+    margin-top: 0px;
+    margin: 100px;
+    width: 400px;
+    padding: 5px 50px 5px 10px;
+    border-radius: 10px;
+    background-color: rgb(71, 63, 63);
+    color: white;
+}
+
+#btnEditar{
+    margin-top: 10%;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+
+#textoAdmin{
+    padding: 50px;
+    padding-bottom: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    font-size: 30px;
+    color: white;
+}
+
+#textoEditar{
+    border-radius: 10px;
+    display: flex;
+    background-color: rgb(95, 82, 82);
+    color: white;
+}
+
+#btnHomeAdmin{
+    margin-top: 15px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white
+}
